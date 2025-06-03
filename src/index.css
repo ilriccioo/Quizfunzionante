@@ -1,3 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body { font-family: sans-serif; margin: 0; background: #f9f9f9; color: #111; }
+
+button { cursor: pointer; transition: 0.2s ease; }
+
+button:hover { opacity: 0.85; }
+
+img { max-width: 100%; height: auto; border-radius: 12px; }
+
+h1, h2 { margin: 0 0 0.5em; }
+
+.container { max-width: 600px; margin: auto; padding: 2rem; background: white; border-radius: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+
